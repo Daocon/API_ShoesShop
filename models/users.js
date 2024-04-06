@@ -1,10 +1,8 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
-
-const Users = new Schema(
+const db = require("../config/db");
+const User_Schema = new db.mongoose.Schema(
   {
-    address: { type: String },
-    email: { type: String },
+    address: { type: String, unique: true, maxLength: 255 },
+    email: { type: String, unique: true, maxLength: 255 },
     image: { type: String },
     name: { type: String },
     password: { type: String },
@@ -12,7 +10,9 @@ const Users = new Schema(
   },
   {
     timestamps: true,
+    collection: "users",
   }
 );
 
-module.exports = mongoose.model("user", Users);
+const UserModel = db.mongoose.model("UserModel", User_Schema);
+module.exports = { UserModel };

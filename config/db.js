@@ -3,17 +3,16 @@ mongoose.set("strictQuery", true);
 const dotenv = require("dotenv");
 dotenv.config();
 
-const connect = async () => {
-  try {
-    await mongoose.connect(process.env.MONGODB_URL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+const db = process.env.MONGODB_URL;
+mongoose
+  .connect(db, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
     console.log("Connect success");
-  } catch (error) {
-    console.log(error);
-    console.log("Connect fail");
-  }
-};
-
-module.exports = { connect };
+  })
+  .catch((err) => {
+    console.error("Connect fail" + err);
+  });
+module.exports = mongoose;
