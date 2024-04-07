@@ -100,7 +100,8 @@ exports.register = async (req, res, next) => {
     let obj = new UserModel({
       address: data.address,
       email: data.email,
-      image: `${req.protocol}://${req.get("host")}/uploads/${file.filename}`,
+      avatar: `${req.protocol}://${req.get("host")}/uploads/${file.filename
+        }`,
       name: data.name,
       password: data.password,
       phone: data.phone,

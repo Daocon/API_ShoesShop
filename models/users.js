@@ -3,7 +3,7 @@ const User_Schema = new db.mongoose.Schema(
   {
     address: { type: String, unique: true, maxLength: 255 },
     email: { type: String, unique: true, maxLength: 255 },
-    image: { type: String },
+    avatar: { type: String },
     name: { type: String },
     password: { type: String },
     phone: { type: String },
