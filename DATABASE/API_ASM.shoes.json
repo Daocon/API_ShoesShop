@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "66136e7e1cd10cb1c813ca84"
+  },
+  "description": "Nike Air Force 1 ’07 LV8 ‘Light Pumice Pale Ivory’ mang màu sắc trung",
+  "id_category": {
+    "$oid": "66137d9dd3622127fd52c4cc"
+  },
+  "name": "Nike airr 1",
+  "price": "100000",
+  "avatar": "http://localhost:3000/uploads/avatar-1712549502162-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T04:11:42.173Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T04:11:42.173Z"
+  },
+  "__v": 0,
+  "favorite": "true"
+},
+{
+  "_id": {
+    "$oid": "66136f2ff118cb97cbcd4794"
+  },
+  "color": "red",
+  "description": "Nike Air Force 1 ’07 LV8 ‘Light Pumice Pale Ivory’ ihiuhmang màu sắc trung",
+  "id_category": {
+    "$oid": "66137d9dd3622127fd52c4cc"
+  },
+  "name": "Nike airr 2",
+  "price": "100000",
+  "quantity": "1",
+  "size": "M",
+  "avatar": "http://localhost:3000/uploads/avatar-1712549679002-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T04:14:39.007Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T04:14:39.007Z"
+  },
+  "__v": 0,
+  "favorite": "true"
+},
+{
+  "_id": {
+    "$oid": "66138667f83a349ef7d89235"
+  },
+  "color": "red",
+  "description": "Nike Air Force 1 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trung",
+  "favorite": "true",
+  "id_category": {
+    "$oid": "65f8e19398cf66c7f04ead1e"
+  },
+  "name": "Nike airr 3",
+  "price": "1200000",
+  "quantity": "1",
+  "size": "M",
+  "avatar": "http://localhost:3000/uploads/avatar-1712555623166-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T05:53:43.170Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T05:53:43.170Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66138fe8f83a349ef7d89250"
+  },
+  "color": "red",
+  "description": "Puma everest 1 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trung",
+  "favorite": "true",
+  "id_category": {
+    "$oid": "66137d1dd3622127fd52c4c4"
+  },
+  "name": "Puma everest",
+  "price": "100000",
+  "quantity": "1",
+  "size": "M",
+  "avatar": "http://localhost:3000/uploads/avatar-1712558056447-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T06:34:16.456Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T06:34:16.456Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66138ffcf83a349ef7d89252"
+  },
+  "color": "red",
+  "description": "Puma everest nitro 1 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trung",
+  "favorite": "true",
+  "id_category": {
+    "$oid": "66137d1dd3622127fd52c4c4"
+  },
+  "name": "Puma everest nitro",
+  "price": "1990000",
+  "quantity": "1",
+  "size": "M",
+  "avatar": "http://localhost:3000/uploads/avatar-1712558076705-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T06:34:36.709Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T06:34:36.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66139d96f83a349ef7d8926d"
+  },
+  "color": "red",
+  "description": "Puma everest nitadwdro 1 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trung",
+  "favorite": "true",
+  "id_category": {
+    "$oid": "66137d1dd3622127fd52c4c4"
+  },
+  "name": "Puma everest nitro 2",
+  "price": "1990000",
+  "quantity": "1",
+  "size": "M",
+  "avatar": "http://localhost:3000/uploads/avatar-1712561558070-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T07:32:38.091Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T07:32:38.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66139da5f83a349ef7d8926f"
+  },
+  "color": "red",
+  "description": "Puma everest nitadwdro 1 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trungAdwdwdwd",
+  "favorite": "true",
+  "id_category": {
+    "$oid": "66137d1dd3622127fd52c4c4"
+  },
+  "name": "Puma everest nitro  5",
+  "price": "1590000",
+  "quantity": "1",
+  "size": "M",
+  "avatar": "http://localhost:3000/uploads/avatar-1712561573285-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T07:32:53.294Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T07:32:53.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66139fb0f32c84f4c10c5c21"
+  },
+  "color": "red",
+  "description": "da coeverest nitadwdro 1 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trungAdwdwdwd",
+  "favorite": "false",
+  "id_category": {
+    "$oid": "66137d1dd3622127fd52c4c4"
+  },
+  "name": "Daco",
+  "price": "1590000",
+  "quantity": "1",
+  "size": "M",
+  "avatar": "http://localhost:3000/uploads/avatar-1712562096225-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T07:41:36.247Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T07:41:36.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66141898c4042691f1117635"
+  },
+  "description": "da coeverest 1231231 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trungAdwdwdwd",
+  "favorite": "false",
+  "id_category": {
+    "$oid": "66137d1dd3622127fd52c4c4"
+  },
+  "name": "Daco 2",
+  "price": "1590000",
+  "avatar": "http://localhost:3000/uploads/avatar-1712593048840-5845cad31046ab543d25238c.png",
+  "createdAt": {
+    "$date": "2024-04-08T16:17:28.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T16:17:28.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6614964deb07ff40c375cb62"
+  },
+  "description": "da CHnel1231231 ’07 LV8 ‘Light Pumice Pale Ivasascascory’ ihiuhmang màu sắc trungAdwdwdwd",
+  "favorite": "false",
+  "id_category": {
+    "$oid": "66137d67d3622127fd52c4c8"
+  },
+  "name": "Daco 2 chanel",
+  "price": "1590000",
+  "avatar": "http://localhost:3000/uploads/avatar-1712625229508-92689519_664830314290885_1387536206274756608_n.jpg",
+  "createdAt": {
+    "$date": "2024-04-09T01:13:49.511Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T01:13:49.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6614967eeb07ff40c375cb64"
+  },
+  "description": "da CHnel1231231 ’07 LV8 ‘Light Padwdwumice Pale Ivasascascory’ ihiuhmang màu sắc trungAdwdwdwd",
+  "favorite": "false",
+  "id_category": {
+    "$oid": "66137d67d3622127fd52c4c8"
+  },
+  "name": "Daco 2 chaneladwd",
+  "price": "1590000",
+  "avatar": "http://localhost:3000/uploads/avatar-1712625278821-5.png",
+  "createdAt": {
+    "$date": "2024-04-09T01:14:38.826Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T01:14:38.826Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "66119ac7c9b9b6f3223db10e"
+  },
+  "address": "Trung Quan Aidoooooooooooo",
+  "email": "haquangnnn@gmail.com",
+  "name": "Ha Van Quang",
+  "password": "11111111ddd",
+  "phone": "0111111111",
+  "createdAt": {
+    "$date": "2024-04-06T18:56:07.480Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-07T18:13:38.565Z"
+  },
+  "__v": 0,
+  "avatar": "http://localhost:3000/uploads/avatar-1712513618542-wallpaper_Jett.png"
+},
+{
+  "_id": {
+    "$oid": "6611b1d9c9b9b6f3223db112"
+  },
+  "address": "Trung dfgdfg",
+  "email": "haqugnnn@gmail.com",
+  "image": "http://localhost:3000/uploads/image-1712435673053-5845ccf80b2a3b54fdbaecf6.png",
+  "name": "Ha Van Quang",
+  "password": "11111111ddddgd",
+  "phone": "0111111111",
+  "createdAt": {
+    "$date": "2024-04-06T20:34:33.071Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-06T20:34:33.071Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6612474689b53caf77ab68e9"
+  },
+  "address": "Trung dfgdfgasasdadad",
+  "email": "haquawdwgnasdasnn@gmail.com",
+  "image": "http://localhost:3000/uploads/image-1712473926929-uwp4100859.jpeg",
+  "name": "Ha Van Quangasdwadw",
+  "password": "11111111ddddgdasdaawdw",
+  "phone": "01111111113123",
+  "createdAt": {
+    "$date": "2024-04-07T07:12:06.949Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-07T07:12:06.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66125fef988b8ec75ec63032"
+  },
+  "address": "123123asasdasd",
+  "email": "test@gmail.com",
+  "avatar": "http://10.0.2.2:3000/uploads/avatar-1712480239640-avatar.png",
+  "name": "adasdasdasda",
+  "password": "111111",
+  "phone": "0111111111",
+  "createdAt": {
+    "$date": "2024-04-07T08:57:19.658Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-07T08:57:19.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6612623a1af62999c4cc7312"
+  },
+  "address": "adauiwdhawdhaiwodja",
+  "email": "Daoconnn@gmail.com",
+  "avatar": "http://10.0.2.2:3000/uploads/avatar-1712480826093-avatar.png",
+  "name": "awdhwaidhiaowhdoiad",
+  "password": "11111111",
+  "phone": "0111111111",
+  "createdAt": {
+    "$date": "2024-04-07T09:07:06.135Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-07T09:07:06.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6612e080dea3e673f6adbaa0"
+  },
+  "address": "Phu Tho",
+  "email": "minh@gmail.com",
+  "avatar": "http://10.0.2.2:3000/uploads/avatar-1712513152257-avatar.png",
+  "name": "Nguyen Quang Minh",
+  "password": "111111",
+  "phone": "0111111111",
+  "createdAt": {
+    "$date": "2024-04-07T18:05:52.310Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-07T18:05:52.310Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6612e22ce9ecae555274a544"
+  },
+  "address": "Trung dfgdfgasasdadaddawdwa",
+  "email": "haquawdwgnasadawdasnn@gmail.com",
+  "avatar": "http://localhost:3000/uploads/avatar-1712513688740-wallpaper_Jett.png",
+  "name": "Ha Van Quangasdwadwawdw",
+  "password": "11111111ddddgdasdaawdwawdw",
+  "phone": "01111111113123123",
+  "createdAt": {
+    "$date": "2024-04-07T18:13:00.462Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-07T18:14:48.747Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66136075ab7722d550fc03b2"
+  },
+  "address": "Vinh Hoa, Ninh Giang",
+  "email": "ngocha@gmail.com",
+  "avatar": "http://10.0.2.2:3000/uploads/avatar-1712545909425-avatar.png",
+  "name": "Pham Ngoc Ha",
+  "password": "111111",
+  "phone": "0111111111",
+  "createdAt": {
+    "$date": "2024-04-08T03:11:49.468Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T03:11:49.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661429cb51581beea927131b"
+  },
+  "address": "Trun",
+  "email": "haquawdwgnasadawnn@gmail.com",
+  "avatar": "http://localhost:3000/uploads/avatar-1712597451875-uwp4100859.jpeg",
+  "name": "Ha Van Quangasdwadw",
+  "password": "11111111ddddgdasdaawdw",
+  "phone": "01111111113123123",
+  "createdAt": {
+    "$date": "2024-04-08T17:30:51.884Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T17:30:51.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66149c3deb07ff40c375cb9f"
+  },
+  "address": "Vinh Hoa",
+  "email": "dao@gmail.com",
+  "avatar": "http://10.0.2.2:3000/uploads/avatar-1712626749497-avatar.png",
+  "name": "Ha Van Dao",
+  "password": "111111",
+  "phone": "0111111111",
+  "createdAt": {
+    "$date": "2024-04-09T01:39:09.507Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T01:39:09.507Z"
+  },
+  "__v": 0
+}]

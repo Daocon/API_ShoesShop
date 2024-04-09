@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "66137d1dd3622127fd52c4c4"
+  },
+  "name": "Puma",
+  "avatar": "http://localhost:3000/uploads/avatar-1712553245971-puma.png",
+  "createdAt": {
+    "$date": "2024-04-08T05:14:05.972Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T05:14:05.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66137d47d3622127fd52c4c6"
+  },
+  "name": "Converse",
+  "avatar": "http://localhost:3000/uploads/avatar-1712553287955-converse.png",
+  "createdAt": {
+    "$date": "2024-04-08T05:14:47.956Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T05:14:47.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66137d67d3622127fd52c4c8"
+  },
+  "name": "Chanel",
+  "avatar": "http://localhost:3000/uploads/avatar-1712553319674-chanel.png",
+  "createdAt": {
+    "$date": "2024-04-08T05:15:19.676Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T05:15:19.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66137d7cd3622127fd52c4ca"
+  },
+  "name": "Adidas",
+  "avatar": "http://localhost:3000/uploads/avatar-1712553340602-adidas.png",
+  "createdAt": {
+    "$date": "2024-04-08T05:15:40.603Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T05:15:40.603Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66137d9dd3622127fd52c4cc"
+  },
+  "name": "Nike",
+  "avatar": "http://localhost:3000/uploads/avatar-1712553373871-nike.png",
+  "createdAt": {
+    "$date": "2024-04-08T05:16:13.873Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T05:16:13.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66142cda9a66c2f8033b1c1f"
+  },
+  "name": "Test",
+  "avatar": "http://localhost:3000/uploads/avatar-1712598234648-uwp4100859.jpeg",
+  "createdAt": {
+    "$date": "2024-04-08T17:43:54.657Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T17:43:54.657Z"
+  },
+  "__v": 0
+}]

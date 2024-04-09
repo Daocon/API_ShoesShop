@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "66148c27814dce082c690748"
+  },
+  "payment": "Credit Card",
+  "cart": [
+    {
+      "id_shoes": "5f4e3d2d1c9d440000c1421e",
+      "quantity": 1,
+      "price": 100
+    },
+    {
+      "id_shoes": "5f4e3d2d1c9d440000c1421f",
+      "quantity": 2,
+      "price": 200
+    }
+  ],
+  "id_user": {
+    "$oid": "5f4e3d2d1c9d440000c1421d"
+  },
+  "total": 500,
+  "createdAt": {
+    "$date": "2024-04-09T00:30:31.583Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T00:30:31.583Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66149052814dce082c690753"
+  },
+  "payment": "Cash",
+  "cart": [
+    {
+      "color": "36",
+      "_id": "66147bc96f3b05b0c164c023",
+      "id_shoes": "66138fe8f83a349ef7d89250",
+      "quantity": "1",
+      "size": "White"
+    },
+    {
+      "color": "33",
+      "_id": "66147bcc6f3b05b0c164c025",
+      "id_shoes": "66138fe8f83a349ef7d89250",
+      "quantity": "1",
+      "size": "Blue"
+    }
+  ],
+  "id_user": {
+    "$oid": "661409b4fbf5c2a5ae03bdb9"
+  },
+  "total": 200000,
+  "createdAt": {
+    "$date": "2024-04-09T00:48:18.016Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T00:48:18.016Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66149463eb07ff40c375cb41"
+  },
+  "payment": "Cash",
+  "cart": [
+    {
+      "color": "36",
+      "_id": "66147bc96f3b05b0c164c023",
+      "id_shoes": "66138fe8f83a349ef7d89250",
+      "quantity": "1",
+      "size": "White"
+    },
+    {
+      "color": "33",
+      "_id": "66147bcc6f3b05b0c164c025",
+      "id_shoes": "66138fe8f83a349ef7d89250",
+      "quantity": "1",
+      "size": "Blue"
+    }
+  ],
+  "id_user": {
+    "$oid": "661409b4fbf5c2a5ae03bdb9"
+  },
+  "total": 200000,
+  "createdAt": {
+    "$date": "2024-04-09T01:05:39.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T01:05:39.111Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66149baaeb07ff40c375cb94"
+  },
+  "payment": "Cash",
+  "cart": [
+    {
+      "color": "35",
+      "_id": "66149b51eb07ff40c375cb7b",
+      "id_shoes": "66138fe8f83a349ef7d89250",
+      "quantity": "1",
+      "size": "Red"
+    }
+  ],
+  "id_user": {
+    "$oid": "661409b4fbf5c2a5ae03bdb9"
+  },
+  "total": 100000,
+  "createdAt": {
+    "$date": "2024-04-09T01:36:42.318Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T01:36:42.318Z"
+  },
+  "__v": 0
+}]
