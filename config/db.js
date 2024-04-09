@@ -10,9 +10,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("Connect success");
+    console.log("Connect success!");
   })
   .catch((err) => {
-    console.error("Connect fail" + err);
+    console.error("Connect fail!" + err);
   });
 module.exports = mongoose;

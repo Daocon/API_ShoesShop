@@ -10,9 +10,8 @@ const User_Schema = new db.mongoose.Schema(
   },
   {
     timestamps: true,
-    collection: "users",
   }
 );
 
-const UserModel = db.mongoose.model("UserModel", User_Schema);
+const UserModel = db.mongoose.model("UserModel", User_Schema, "users");
 module.exports = { UserModel };

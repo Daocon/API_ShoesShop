@@ -23,23 +23,67 @@ exports.getListUser = async (req, res, next) => {
   }
 };
 
-exports.updateUser = async (req, res, next) => {
+//update user with image
+exports.updateUserWithImage = async (req, res, next) => {
   try {
-    const userId = req.params.id;
+    const { id } = req.params;
+    const { file } = req;
     const data = req.body;
-    let updatedUser = await UserModel.findByIdAndUpdate(userId, data, {
-      new: true,
-    });
+    const updatedUser = await UserModel.findById(id);
+    let result = null;
     if (updatedUser) {
+      (updatedUser.address = data.address ?? updatedUser.address),
+        (updatedUser.email = data.email ?? updatedUser.email),
+        (updatedUser.avatar = `${req.protocol}://${req.get("host")}/uploads/${file.filename
+          }` ?? updatedUser.avatar),
+        (updatedUser.name = data.name ?? updatedUser.name),
+        (updatedUser.password = data.password ?? updatedUser.password),
+        (updatedUser.phone = data.phone ?? updatedUser.phone),
+        (result = await updatedUser.save());
+    }
+    if (result) {
       res.json({
         status: 200,
         message: "User updated successfully",
-        data: updatedUser,
+        data: result,
       });
     } else {
       res.json({
         status: 404,
-        message: "User not found",
+        message: "Update failed",
+        data: [],
+      });
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+exports.updateUser = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const data = req.body;
+    const updatedUser = await UserModel.findById(id);
+    let result = null;
+    if (updatedUser) {
+      (updatedUser.address = data.address ?? updatedUser.address),
+        (updatedUser.email = data.email ?? updatedUser.email),
+        (updatedUser.avatar = data.avatar ?? updatedUser.avatar),
+        (updatedUser.name = data.name ?? updatedUser.name),
+        (updatedUser.password = data.password ?? updatedUser.password),
+        (updatedUser.phone = data.phone ?? updatedUser.phone),
+        (result = await updatedUser.save());
+    }
+    if (result) {
+      res.json({
+        status: 200,
+        message: "User updated successfully",
+        data: result,
+      });
+    } else {
+      res.json({
+        status: 404,
+        message: "Update failed",
         data: [],
       });
     }
